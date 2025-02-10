@@ -13,7 +13,7 @@ const Home = () => {
           I'm <span>Yağmur</span>.
         </h1>
         <p>I'm a software engineer specializing in the front end.</p>
-        <p>I have a passion for UI/UX designs.</p>
+        <p>I have a passion for  Web Development.</p>
         <div className="icons">
           <a
             href="https://github.com"
@@ -43,7 +43,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="image-section">
-        <img src="../src/assets/myProfile.jpeg" alt="Yağmur" />
+        <img src="../src/assets/images/profile.jpeg" alt="Yağmur" />
       </div>
     </div>
   );

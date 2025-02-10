@@ -10,7 +10,7 @@ const Projects = () => {
         "API kullanarak hava durumu uygulaması.",
       technologies:
         " Html5,Css3,Javascript",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+      image: "../src/assets/images/weather-app.png", 
       links: {
         github: "https://github.com/ygmrci/Api",
       },
@@ -21,7 +21,7 @@ const Projects = () => {
         "YAPILACAKLAR LİSTESİ UYGULAMASI",
       technologies:
         " HTML,CSS VE JAVASCRİPT",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+      image: "../src/assets/images/todolist.png", 
       links: {
         github: "https://github.com/ygmrci/TodoL-st",
       },
@@ -32,7 +32,7 @@ const Projects = () => {
         "HESAP MAKİNESİ UYGULAMASI",
       technologies:
         "HTML,CSS VE JAVASCRİPT",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+      image: "../src/assets/images/calculator.png", 
       links: {
         github: "https://github.com/ygmrci/calculator",
       },
@@ -49,12 +49,12 @@ const Projects = () => {
       },
     },
     {
-      title: "E-Commerce Web App",
+      title: "ANALOG SAAT",
       description:
         "ANALOG SAAT UYGULAMASI",
       technologies:
         "HTML,CSS VE JAVASCRİPT",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+      image: "../src/assets/images/analog-saat.png", // Görsel URL'si
       links: {
         github: "https://github.com/ygmrci/analog-clock",
       },
@@ -63,10 +63,10 @@ const Projects = () => {
     {
       title: "MY PORTFOLİO",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        "",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+        "",
+      image: "../src/assets/images/portföy.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -74,9 +74,9 @@ const Projects = () => {
     {
       title: "E-TİCARET SİTESİ REACT İLE",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        "",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
+        "",
       image: "https://via.placeholder.com/300", // Görsel URL'si
       links: {
         github: "https://github.com",
@@ -85,21 +85,21 @@ const Projects = () => {
     {
       title: "REACT İLE MY TODO-LİST",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        "",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
+        "",
       image: "https://via.placeholder.com/300", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
     },
     {
-      title: "REACTİLE HAVA DURUMU APP",
+      title: "REACT İLE HAVA DURUMU APP",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        "Weather api den güncel hava durumu uygulması",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+        "React, React Router Dom,Weather api",
+      image: "../src/assets/images/react-weather.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -107,32 +107,32 @@ const Projects = () => {
     {
       title: "REACT İLE FİLM SİTESİ",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        "TMDB film sitesine benzeyen ,o siteden api çekerek oluşturulmuş bir web site",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+        "React ,React Router Dom, Axios,Metarial UI",
+      image: "../src/assets/images/react_film.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
     },
     {
-      title: "REACT İLE RESİM UYUGULAMASI",
+      title: "Javascript İLE RESİM UYUGULAMASI",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        "",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+        "html,css,javascipt",
+      image: "../src/assets/images/resim-bulma.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
     },
     {
-      title: "REACT İLE DÖVİZ KURU UYGULAMASI",
+      title: "Migros Money Kart ile Alışveriş Tutarı",
       description:
-        "Built a responsive, minimalist e-commerce app with category filtering, sorting, product details, and cart management features.",
+        " Inheritance(miras alma) kullanarak uygulama yapımı",
       technologies:
-        "React, TypeScript, Jotai State Management, React Router, Tailwind CSS, Supabase",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+        "html,css,javascript ",
+      image: "../src/assets/images/migros.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
