@@ -43,7 +43,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="image-section">
-        <img src="../src/assets/images/profile.jpeg" alt="Yağmur" />
+        <img src="../public/images/profile.jpeg" alt="Yağmur" />
       </div>
     </div>
   );

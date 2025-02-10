@@ -10,7 +10,7 @@ const Projects = () => {
         "API kullanarak hava durumu uygulaması.",
       technologies:
         " Html5,Css3,Javascript",
-      image: "../src/assets/images/weather-app.png", 
+      image: "../public/images/weather-app.png", 
       links: {
         github: "https://github.com/ygmrci/Api",
       },
@@ -21,7 +21,7 @@ const Projects = () => {
         "YAPILACAKLAR LİSTESİ UYGULAMASI",
       technologies:
         " HTML,CSS VE JAVASCRİPT",
-      image: "../src/assets/images/todolist.png", 
+      image: "../public/images/todolist.png", 
       links: {
         github: "https://github.com/ygmrci/TodoL-st",
       },
@@ -32,7 +32,7 @@ const Projects = () => {
         "HESAP MAKİNESİ UYGULAMASI",
       technologies:
         "HTML,CSS VE JAVASCRİPT",
-      image: "../src/assets/images/calculator.png", 
+      image: "../public/images/calculator.png", 
       links: {
         github: "https://github.com/ygmrci/calculator",
       },
@@ -54,7 +54,7 @@ const Projects = () => {
         "ANALOG SAAT UYGULAMASI",
       technologies:
         "HTML,CSS VE JAVASCRİPT",
-      image: "../src/assets/images/analog-saat.png", // Görsel URL'si
+      image: "../public/images/analog-saat.png", // Görsel URL'si
       links: {
         github: "https://github.com/ygmrci/analog-clock",
       },
@@ -66,7 +66,7 @@ const Projects = () => {
         "",
       technologies:
         "",
-      image: "../src/assets/images/portföy.png", // Görsel URL'si
+      image: "../public/images/portföy.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -99,7 +99,7 @@ const Projects = () => {
         "Weather api den güncel hava durumu uygulması",
       technologies:
         "React, React Router Dom,Weather api",
-      image: "../src/assets/images/react-weather.png", // Görsel URL'si
+      image: "../public/images/react-weather.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -110,7 +110,7 @@ const Projects = () => {
         "TMDB film sitesine benzeyen ,o siteden api çekerek oluşturulmuş bir web site",
       technologies:
         "React ,React Router Dom, Axios,Metarial UI",
-      image: "../src/assets/images/react_film.png", // Görsel URL'si
+      image: "../public/images/react_film.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -121,7 +121,7 @@ const Projects = () => {
         "",
       technologies:
         "html,css,javascipt",
-      image: "../src/assets/images/resim-bulma.png", // Görsel URL'si
+      image: "../public/images/resim-bulma.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -132,7 +132,7 @@ const Projects = () => {
         " Inheritance(miras alma) kullanarak uygulama yapımı",
       technologies:
         "html,css,javascript ",
-      image: "../src/assets/images/migros.png", // Görsel URL'si
+      image: "../public/images/migros.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
