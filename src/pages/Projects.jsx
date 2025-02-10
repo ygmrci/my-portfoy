@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Hava Durumu",
       description: "API kullanarak hava durumu uygulaması.",
       technologies: " Html5,Css3,Javascript",
-      image: "../public/Images/weather-app.png",
+      image: "/weather-app.png",
       links: {
         github: "https://github.com/ygmrci/Api",
       },
@@ -17,7 +17,7 @@ const Projects = () => {
       title: "MY TODO-LİST APP",
       description: "YAPILACAKLAR LİSTESİ UYGULAMASI",
       technologies: " HTML,CSS VE JAVASCRİPT",
-      image: "../public/Images/todolist.png",
+      image: "/todolist.png",
       links: {
         github: "https://github.com/ygmrci/TodoL-st",
       },
@@ -26,7 +26,7 @@ const Projects = () => {
       title: "CALCULATOR",
       description: "HESAP MAKİNESİ UYGULAMASI",
       technologies: "HTML,CSS VE JAVASCRİPT",
-      image: "../public/Images/calculator.png",
+      image: "/calculator.png",
       links: {
         github: "https://github.com/ygmrci/calculator",
       },
@@ -44,7 +44,7 @@ const Projects = () => {
       title: "ANALOG SAAT",
       description: "ANALOG SAAT UYGULAMASI",
       technologies: "HTML,CSS VE JAVASCRİPT",
-      image: "../public/Images/analog-saat.png", // Görsel URL'si
+      image: "/analog-saat.png", // Görsel URL'si
       links: {
         github: "https://github.com/ygmrci/analog-clock",
       },
@@ -54,7 +54,7 @@ const Projects = () => {
       title: "MY PORTFOLİO",
       description: "",
       technologies: "",
-      image: "../public/Images/portföy.png", // Görsel URL'si
+      image: "/portföy.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -81,7 +81,7 @@ const Projects = () => {
       title: "REACT İLE HAVA DURUMU APP",
       description: "Weather api den güncel hava durumu uygulması",
       technologies: "React, React Router Dom,Weather api",
-      image: "../public/Images/react-weather.png", // Görsel URL'si
+      image: "/react-weather.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -91,7 +91,7 @@ const Projects = () => {
       description:
         "TMDB film sitesine benzeyen ,o siteden api çekerek oluşturulmuş bir web site",
       technologies: "React ,React Router Dom, Axios,Metarial UI",
-      image: "../public/Images/react_film.png", // Görsel URL'si
+      image: "/react_film.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -100,7 +100,7 @@ const Projects = () => {
       title: "Javascript İLE RESİM UYUGULAMASI",
       description: "",
       technologies: "html,css,javascipt",
-      image: "../public/Images/resim-bulma.png", // Görsel URL'si
+      image: "/resim-bulma.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
@@ -109,7 +109,7 @@ const Projects = () => {
       title: "Migros Money Kart ile Alışveriş Tutarı",
       description: " Inheritance(miras alma) kullanarak uygulama yapımı",
       technologies: "html,css,javascript ",
-      image: "../public/Images/migros.png", // Görsel URL'si
+      image: "/migros.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
