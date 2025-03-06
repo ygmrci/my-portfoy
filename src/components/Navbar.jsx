@@ -25,7 +25,9 @@ function Navbar() {
   return (
     <div>
       <nav className={`navbar ${isDarkMode ? "dark" : ""}`}>
-        <div className="logo">Yağmur Gamze Çimen</div> {/* Sol tarafta isim */}
+        <Link to="/" className="logo" onClick={() => setActive("Home")}>
+          Yağmur Gamze Çimen
+        </Link>
         <div className="links">
           <Link
             to="/"

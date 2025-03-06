@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.css"; // CSS dosyasını bağladık
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   const projectList = [
     {
-      title: "Hava Durumu",
+      title: "WEATHER APP",
       description: "API kullanarak hava durumu uygulaması.",
       technologies: " Html5,Css3,Javascript",
       image: "/weather-app.png",
@@ -32,9 +32,9 @@ const Projects = () => {
       },
     },
     {
-      title: "CURRENCY RATE APP",
-      description: "DÖVİZ KURU UYGULAMASI",
-      technologies: "HTML,CSS VE JAVASCRİPT",
+      title: "RİCK AND MORTY",
+      description: "Rick and Morty Character List",
+      technologies: "Next.js, React, Axios,SSR",
       image: "https://via.placeholder.com/300", // Görsel URL'si
       links: {
         github: "https://github.com/ygmrci/currency-rate",
@@ -52,34 +52,17 @@ const Projects = () => {
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     {
       title: "MY PORTFOLİO",
-      description: "",
-      technologies: "",
+      description: " Portfolio web sitesi with React",
+      technologies: " React, React Router Dom, CSS",
       image: "/portföy.png", // Görsel URL'si
       links: {
         github: "https://github.com",
       },
     },
-    {
-      title: "E-TİCARET SİTESİ REACT İLE",
-      description: "",
-      technologies: "",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
-      links: {
-        github: "https://github.com",
-      },
-    },
-    {
-      title: "REACT İLE MY TODO-LİST",
-      description: "",
-      technologies: "",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
-      links: {
-        github: "https://github.com",
-      },
-    },
+
     {
       title: "REACT İLE HAVA DURUMU APP",
-      description: "Weather api den güncel hava durumu uygulması",
+      description: "Current weather application from Weather API",
       technologies: "React, React Router Dom,Weather api",
       image: "/react-weather.png", // Görsel URL'si
       links: {
@@ -87,9 +70,9 @@ const Projects = () => {
       },
     },
     {
-      title: "REACT İLE FİLM SİTESİ",
+      title: "MOVİE APP WİTH REACT",
       description:
-        "TMDB film sitesine benzeyen ,o siteden api çekerek oluşturulmuş bir web site",
+        "A website similar to the TMDB movie site, created by pulling the API from that site. ",
       technologies: "React ,React Router Dom, Axios,Metarial UI",
       image: "/react_film.png", // Görsel URL'si
       links: {
@@ -97,8 +80,8 @@ const Projects = () => {
       },
     },
     {
-      title: "Javascript İLE RESİM UYUGULAMASI",
-      description: "",
+      title: "PICTURE SEARCH APP",
+      description: "A website that searches for pictures from the API.",
       technologies: "html,css,javascipt",
       image: "/resim-bulma.png", // Görsel URL'si
       links: {
@@ -106,12 +89,12 @@ const Projects = () => {
       },
     },
     {
-      title: "Migros Money Kart ile Alışveriş Tutarı",
+      title: "MIGROS MONEY CARD APP",
       description: " Inheritance(miras alma) kullanarak uygulama yapımı",
       technologies: "html,css,javascript ",
       image: "/migros.png", // Görsel URL'si
       links: {
-        github: "https://github.com",
+        github: "https://github.com", 
       },
     },
   ];

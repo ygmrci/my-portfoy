@@ -6,13 +6,16 @@
 }
 
 .projects-container h1 {
-  font-size: 2.5rem;
+  font-size: 80px;
   margin-bottom: 1rem;
+  
+  
 }
 
 .projects-container p {
   color: #555;
   margin-bottom: 2rem;
+  font-size: 30px;
 }
 
 .projects-grid {
@@ -40,9 +43,19 @@
   margin-bottom: 0.5rem;
 }
 
-.project-card p {
+.project-card description {
+  font-family: "Playwrite IT Moderna", cursive;
   color: #555;
   margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.project-card technologies {
+  font-family: "Playwrite IT Moderna", cursive;
+  text-transform: lowercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .project-links {
@@ -58,6 +71,7 @@
   text-decoration: none;
   font-weight: bold;
   gap: 0.5rem;
+  font-size: 24px;
 }
 
 .project-links a:hover {

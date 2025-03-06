@@ -1,6 +1,7 @@
-import "./App.css";
 import React from "react";
+import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // BrowserRouter import edilmesi gerekiyor
+
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
