@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaRegMoon } from "react-icons/fa";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { useTheme } from "../ThemeContext"; // ThemeContext kullanımı
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const { isDarkMode, toggleTheme } = useTheme(); // Tema durumu ve geçiş fonksiyonu
-  const [activePage, setActivePage] = React.useState("Home");
+  const [activePage, setActivePage] = useState("Home");
 
   // Sayfa geçişleri için activePage belirleme
   const setActive = (page) => {

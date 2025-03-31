@@ -35,9 +35,9 @@ const Projects = () => {
       title: "RİCK AND MORTY",
       description: "Rick and Morty Character List",
       technologies: "Next.js, React, Axios,SSR",
-      image: "https://via.placeholder.com/300", // Görsel URL'si
+      image: "/rick.png", // Görsel URL'si
       links: {
-        github: "https://github.com/ygmrci/currency-rate",
+        github: "https://github.com/ygmrci/rick-and-morty-wiki",
       },
     },
     {
@@ -94,7 +94,7 @@ const Projects = () => {
       technologies: "html,css,javascript ",
       image: "/migros.png", // Görsel URL'si
       links: {
-        github: "https://github.com", 
+        github: "https://github.com",
       },
     },
   ];

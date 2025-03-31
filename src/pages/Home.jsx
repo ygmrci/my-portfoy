@@ -13,7 +13,7 @@ const Home = () => {
           I'm <span>Yağmur</span>.
         </h1>
 
-        <p style={{ fontSize: "30px" }}>
+        <p style={{ fontSize: "30px"}}>
           I'm a software engineer specializing in the front end.
         </p>
         <p style={{ fontSize: "30px" }}>
